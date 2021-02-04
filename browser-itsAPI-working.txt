@@ -1,0 +1,12 @@
+We have learnt it before.
+
+When we write something in text editor for our website, the website make the html & css codes into DOM(Document Object...)
+
+"HTML DOM tree" is created from html codes
+
+"Style rules" is created from css style sheet
+
+Both are made together to create "RENDER tree"
+
+
+Then a "layout" is made from RENDER tree

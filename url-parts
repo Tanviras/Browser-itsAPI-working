@@ -1,0 +1,19 @@
+#use kore url er moddhei website er id likhe furut kore website er ek pash theke arek pashe jabar golpo jenechi
+
+#youtube videos jekono jayga theke start korar way shikhechi
+
+https://www.howtogeek.com/356563/what-is-a-url-uniform-resource-locator/
+
+
+
+Bepar gulo chenar por kaj hocche jekono ekta website a jawa.
+Okhaner console a jawa
+type koro je window.location
+tahole orai sob detailed information janiye dibe konta protocol,konta host,hostname,pathname etc.
+
+
+site ta abar reload korar jonno location.reaload()
+location change kore deyar khetre ek site er href copy kore ene bole deya jay console er moddhe:
+location.href=""
+tahole ar alada kore oi upore url change kore copy kora link boshate hobe na
+Chaile eta ke location.assin("") kora jay

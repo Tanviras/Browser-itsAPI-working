@@ -1,0 +1,34 @@
+https://developer.mozilla.org/en-US/docs/Web/API/History_API
+
+
+
+window.history.back()
+This acts exactly as if the user clicked on the Back button in their browser toolbar.
+
+window.history.forward()
+Similarly, you can move forward (as if the user clicked the Forward button), like this:
+
+
+
+Moving to a specific point in history
+
+You can use the go() method to load a specific page from session history, identified by its relative position to the current page. (The current page's relative position is 0.)
+To move back one page (the equivalent of calling back()):
+
+window.history.go(-1)
+
+To move forward a page, just like calling forward():
+
+window.history.go(1)
+
+
+
+
+To reload the page
+
+window.history.go(0) or,
+window.history.go()
+
+
+
+window.history likhlei ora dekhabe koyta page back a pore ache

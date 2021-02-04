@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Alert</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+
+<p id="demo"></p>
+
+<script>
+
+// //use of alert
+
+// function myFunction() {
+//   alert("I am an alert box!");
+// }
+
+
+
+
+// //Use of confirm
+// function myFunction() {
+ 
+//  if (confirm("Press a button!")) {
+//    var txt = "You pressed OK!";
+//  } 
+//  else {
+//    txt = "You pressed Cancel!";
+//  }
+//  document.getElementById("demo").innerHTML = txt;
+// }
+
+
+
+
+
+
+
+//Use of prompt box
+// A prompt box is often used if you want the user to input a value before entering a page.
+
+// When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.
+
+// If the user clicks "OK" the box returns the input value. If the user clicks "Cancel" the box returns null.
+
+
+
+function myFunction() {
+  var person = prompt("Please enter your name:", "Harry Potter");//ekhane Harry Potter name ta placeholder er moto
+
+  if (person == null || person == "") {//user kono info dilo na
+    var txt = "User cancelled the prompt.";
+  } 
+  else {//user info dilo
+    txt = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
